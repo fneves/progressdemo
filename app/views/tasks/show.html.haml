@@ -1,0 +1,17 @@
+
+%p
+  %b Title:
+  = @task.title
+%p
+  %b Duedate:
+  = @task.duedate
+%p
+  %b Body:
+  = @task.body
+%p
+  %b Status:
+  = @task.status
+
+= link_to 'Edit', edit_progress_bar_task_path(@progress_bar, @task)
+\|
+= link_to 'Back', progress_bar_tasks_path

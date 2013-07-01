@@ -1,0 +1,47 @@
+%h2.progress-bar
+  = @progress_bar.name
+
+.row-fluid
+  .span12
+    .pull-right
+      %a{:href => new_progress_bar_task_path(@progress_bar), :class=>'btn'}
+        %i.icon-plus-sign-alt
+          Add Task
+
+%br
+%br
+
+.row-fluid.big-percentage
+  .span12
+    .pull-right
+      %span
+        #{percentage(@tasks)}%
+
+%br
+
+.row-fluid
+  .span12
+    .progress.progress-success.progress-striped.active
+      .bar{:style=>"width:#{percentage(@tasks)}%"}
+
+
+%br
+
+.equidistant
+  %ul
+    - @tasks.each do |task|
+      %li.task
+        =link_to progress_bar_task_path(@progress_bar, task) do
+          %i.icon-level-down
+          %br
+          %i{:class => "#{marker_icon(task)}"}
+          %span{:class => 'hint--bottom' ,:data => {'hint' => task.duedate.to_s}}
+            = task.duedate.to_s
+          %br
+          %span.title=task.title
+
+%br
+
+= link_to 'Edit', edit_progress_bar_path(@progress_bar)
+\|
+= link_to 'Back', progress_bars_path

@@ -1,0 +1,7 @@
+%h1 Editing task
+
+= render 'form'
+
+= link_to 'Show', progress_bar_task_url(@progress_bar, @task)
+\|
+= link_to 'Back', progress_bar_tasks_path
