@@ -18,5 +18,13 @@
   .field
     = f.label :status
     = f.select :status, %w(Planned Completed Canceled)
+
+  .field
+    #epiceditor
+
   .actions
     = f.submit 'Save'
+
+
+:javascript
+  var editor = new EpicEditor().load();

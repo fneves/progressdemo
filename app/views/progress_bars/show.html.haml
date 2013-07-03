@@ -1,5 +1,6 @@
-%h2.progress-bar
-  = @progress_bar.name
+.progress-bar
+  %h2
+    = @progress_bar.name
 
 .row-fluid
   .span12
@@ -11,18 +12,40 @@
 %br
 %br
 
-.row-fluid.big-percentage
-  .span12
-    .pull-right
-      %span
-        #{percentage(@tasks)}%
+.row-fluid
+  .big-percentage
+    .span12
+      .pull-left
+        .green
+          %span
+            #{percentage(@tasks)[:completed]}% completed
+        %br
+        %br
+        %br
+        %br
+        .orange
+          %span
+            #{percentage(@tasks)[:delayed]}% delayed
+        %br
+        %br
+        %br
+        %br
+        .red
+          %span
+            #{percentage(@tasks)[:canceled]}% canceled
 
 %br
+%br
+%br
+%br
+
 
 .row-fluid
   .span12
-    .progress.progress-success.progress-striped.active
-      .bar{:style=>"width:#{percentage(@tasks)}%"}
+    .progress
+      .bar.bar-success{:style=>"width:#{percentage(@tasks)[:completed]}%"}
+      .bar.bar-warning{:style=>"width:#{percentage(@tasks)[:delayed]}%"}
+      .bar.bar-danger{:style=>"width:#{percentage(@tasks)[:canceled]}%"}
 
 
 %br

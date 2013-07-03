@@ -1,0 +1,161 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require hint/hint
+ *= require_tree .
+ */
+
+@import 'base/epiceditor';
+@import 'preview/bartik';
+@import 'preview/github';
+@import 'preview/preview-dark';
+@import 'editor/epic-dark';
+@import 'editor/epic-light';
+
+
+@font-face {
+    font-family: 'Unibody8ProBlack';
+    src: url('/fonts/unibody/unibody8pro-black.eot');
+    src: url('/fonts/unibody/unibody8pro-black.eot') format('embedded-opentype'),
+    url('/fonts/unibody/unibody8pro-black.woff') format('woff'),
+    url('/fonts/unibody/unibody8pro-black.ttf') format('truetype'),
+    url('/fonts/unibody/unibody8pro-black.svg#Unibody8ProBlack') format('svg');
+}
+
+@font-face {
+    font-family: 'archivo_blackregular';
+    src: url('/fonts/archivo/archivoblack-regular.eot');
+    src: url('/fonts/archivo/archivoblack-regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/archivo/archivoblack-regular.woff') format('woff'),
+    url('/fonts/archivo/archivoblack-regular.ttf') format('truetype'),
+    url('/fonts/archivo/archivoblack-regular.svg#archivo_blackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'EraserRegular';
+    src: url('/fonts/eraser/EraserRegular-webfont.eot');
+    src: url('/fonts/eraser/EraserRegular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/eraser/EraserRegular-webfont.woff') format('woff'),
+    url('/fonts/eraser/EraserRegular-webfont.ttf') format('truetype'),
+    url('/fonts/eraser/EraserRegular-webfont.svg#EraserRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'capture_itregular';
+    src: url('/fonts/capture/capture_it.eot');
+    src: url('/fonts/capture/capture_it.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/capture/capture_it.woff') format('woff'),
+    url('/fonts/capture/capture_it.ttf') format('truetype'),
+    url('/fonts/capture/capture_it.svg#capture_itregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'districtregular';
+    src: url('/fonts/district/district-webfont.eot');
+    src: url('/fonts/district/district-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/district/district-webfont.woff') format('woff'),
+    url('/fonts/district/district-webfont.ttf') format('truetype'),
+    url('/fonts/district/district-webfont.svg#districtregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UbuntuTitle';
+    src: url('/fonts/ubuntu/Ubuntu-Title-webfont.eot');
+    src: url('/fonts/ubuntu/Ubuntu-Title-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/ubuntu/Ubuntu-Title-webfont.woff') format('woff'),
+    url('/fonts/ubuntu/Ubuntu-Title-webfont.ttf') format('truetype'),
+    url('/fonts/ubuntu/Ubuntu-Title-webfont.svg#UbuntuTitle') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+    /*background-image:url("/assets/tweed.png");*/
+    background-image:url("/assets/binding_dark.png");
+}
+
+.main-content {
+    margin-top: 50px;
+}
+
+
+
+.progress-bar h2 {
+    font-family: capture_itregular;
+    font-size: 70px;
+    /*color: #b5c6d0;*/
+    color: #214a66;
+}
+
+
+.events {
+    display: table;
+    height: 87px;
+    width: 100%;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: #00005d;
+}
+
+.orange {
+    color: orange;
+}
+
+.red {
+    color: red;
+}
+
+td.show, td.edit, td.delete {
+    padding: 5px 15px;
+}
+
+.big-percentage {
+    font-size: 50px;
+    font-family: capture_itregular;;
+    color: #585858;
+    margin: 30px;
+}
+
+div.equidistant{
+    width:100%;
+    display: table;
+}
+
+div.equidistant ul{
+    display: table-row;
+}
+
+div.equidistant ul li {
+    display: table-cell;
+    text-align: center;
+}
+
+footer {
+    margin-top: 100px;
+}

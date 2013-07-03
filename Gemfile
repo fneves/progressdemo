@@ -18,7 +18,7 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'commonjs' , '~> 0.2.6', :git => 'https://github.com/cowboyd/commonjs.rb.git'
 gem 'libv8', '~> 3.11.8.3'
-gem 'therubyracer', platforms: :ruby
+gem 'therubyracer'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -28,10 +28,10 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
-gem 'less-rails'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'haml'
 gem 'haml-rails'
+gem 'epic-editor-rails'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

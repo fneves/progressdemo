@@ -51,6 +51,8 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.2)
+    epic-editor-rails (0.2.0)
+      railties (>= 3.2, < 5.0)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -70,11 +72,6 @@ GEM
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.8.0)
-    less (2.3.2)
-      commonjs (~> 0.2.6)
-    less-rails (2.3.3)
-      actionpack (>= 3.1)
-      less (~> 2.3.1)
     libv8 (3.11.8.17)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -143,11 +140,11 @@ PLATFORMS
 
 DEPENDENCIES
   commonjs (~> 0.2.6)!
+  epic-editor-rails
   haml
   haml-rails
   jbuilder (~> 1.2)
   jquery-rails
-  less-rails
   libv8 (~> 3.11.8.3)
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)
