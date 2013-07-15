@@ -6,36 +6,26 @@
   .span12
     .pull-right
       %a{:href => new_progress_bar_task_path(@progress_bar), :class=>'btn'}
-        %i.icon-plus-sign-alt
-          Add Task
+        %i.icon-plus-sign-alt &nbsp;Add Task
+
 
 %br
 %br
 
 .row-fluid
   .big-percentage
-    .span12
+    .well.span6.stitched
       .pull-left
         .green
           %span
             #{percentage(@tasks)[:completed]}% completed
-        %br
-        %br
-        %br
-        %br
         .orange
           %span
             #{percentage(@tasks)[:delayed]}% delayed
-        %br
-        %br
-        %br
-        %br
         .red
           %span
             #{percentage(@tasks)[:canceled]}% canceled
 
-%br
-%br
 %br
 %br
 
@@ -47,23 +37,36 @@
       .bar.bar-warning{:style=>"width:#{percentage(@tasks)[:delayed]}%"}
       .bar.bar-danger{:style=>"width:#{percentage(@tasks)[:canceled]}%"}
 
-
-%br
-
 .equidistant
-  %ul
+  %ul.span11.task-list{:id => 'task-list'}
     - @tasks.each do |task|
-      %li.task
-        =link_to progress_bar_task_path(@progress_bar, task) do
-          %i.icon-level-down
-          %br
-          %i{:class => "#{marker_icon(task)}"}
-          %span{:class => 'hint--bottom' ,:data => {'hint' => task.duedate.to_s}}
-            = task.duedate.to_s
-          %br
-          %span.title=task.title
+      %li
+        = link_to progress_bar_task_path(@progress_bar, task) do
+          .bubble.task
+            .task-date
+              %span{ :class => 'hint--bottom' , :data => {'hint' => task.duedate.to_s} }
+                = task.duedate.strftime("Due on %d/%m/%Y")
+            .task-description
+              %span.title
+                =task.title
+            .task-status
+              %i{ :class => "#{marker_icon(task)}" }
+                &nbsp;#{task.status_descr()}
+
+
 
 %br
+
+:javascript
+  function isOverflowed(element){
+      return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
+  }
+
+  if( isOverflowed($('#task-list'))){
+
+  }
+
+
 
 = link_to 'Edit', edit_progress_bar_path(@progress_bar)
 \|

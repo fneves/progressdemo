@@ -11,20 +11,24 @@
     = f.text_field :title
   .field
     = f.label :duedate
-    = f.date_select :duedate
+    = f.text_field :duedate, class: 'datepicker'
   .field
     = f.label :body
-    = f.text_area :body
+    = f.text_area :body, class:'editor span8'
   .field
     = f.label :status
     = f.select :status, %w(Planned Completed Canceled)
 
-  .field
-    #epiceditor
-
   .actions
     = f.submit 'Save'
 
-
 :javascript
-  var editor = new EpicEditor().load();
+  $(document).ready(function(){
+
+    $('.datepicker').datepicker();
+
+    $('.editor').each(function(i,v){
+      $(v).wysihtml5();
+    });
+
+  });

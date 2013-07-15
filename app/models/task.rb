@@ -20,7 +20,10 @@ class Task < ActiveRecord::Base
   end
 
   def delayed?
-    return (duedate > Date.today and :status == 'Planned')
+    return (duedate < Date.today and status == 'Planned')
   end
 
+  def status_descr
+    return (delayed? ? 'Delayed' : status.capitalize)
+  end
 end

@@ -10,7 +10,7 @@ class ProgressBarsController < ApplicationController
   # GET /progress_bars/1
   # GET /progress_bars/1.json
   def show
-    @tasks = @progress_bar.tasks
+    @tasks = @progress_bar.tasks.order('duedate ASC')
   end
 
   # GET /progress_bars/new

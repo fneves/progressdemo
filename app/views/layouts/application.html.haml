@@ -15,17 +15,58 @@
     = favicon_link_tag 'apple-touch-icon-72x72-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '72x72'
     = favicon_link_tag 'apple-touch-icon-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png'
     = favicon_link_tag 'favicon.ico', :rel => 'shortcut icon'
+    = javascript_include_tag "application"
 
 
   %body
-    -#.navbar.navbar-inverse.navbar-fixed-top
+    -#%ul.nav.nav-tabs.nav-stacked.span1
+    -#  %li
+    -#    %a(href='#')
+    -#      %i.icon-glass
+    -#
+    -#  %li
+    -#    %a(href='#')
+    -#      %i.icon-home
+    -#  %li
+    -#    %a(href='#')
+    -#      %i.icon-user
+    -#  %li
+    -#    %a(href='#')
+    -#      %i.icon-th-list
+
+    #sidebar
+      %a{:class=>"btn-navbar", :data =>{:toggle=>"collapse",:target=>".nav-collapse"} }
+        %span(class="icon-bar")
+        %span(class="icon-bar")
+        %span(class="icon-bar")
+      -#.logo
+      -#  %a(href='/')
+      -#    %i.icon-glass
+      %nav{:id=>'nav', :class=>'navigation', :role => 'navigation'}
+        %ul.unstyled
+          %li.active{:data=>{:section =>'1'}}
+            %i.icon-home
+            %span Home
+          %li{:data=>{:section =>'2'}}
+            %i.icon-user
+              %span Profile
+          %li.last{:data=>{:section =>'3'}}
+            %i.icon-th-list
+              %span Bars
+
+
+
+
+
+
+    -#.nav.navbar-inverse
     -#  .navbar-inner
     -#    .container
-    -#      -#%a.btn.btn-navbar(data-target=".nav-collapse" data-toggle="collapse")
-    -#      -#  %span.icon-bar
-    -#      -#  %span.icon-bar
-    -#      -#  %span.icon-bar
-    -#      %a.brand(href="#") Progress Demo
+          -#%a.btn.btn-navbar(data-target=".nav-collapse" data-toggle="collapse")
+          -#  %span.icon-bar
+          -#  %span.icon-bar
+          -#  %span.icon-bar
+          -#%a.brand(href="#") Progress Demo
 
 
     .container.main-content
@@ -41,4 +82,4 @@
       Javascripts
       \==================================================
     / Placed at the end of the document so the pages load faster
-    = javascript_include_tag "application"
+

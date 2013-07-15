@@ -14,5 +14,6 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require turbolinks
-//= require 'epiceditor'
+//= require jquery.ui.all
+//= require bootstrap-wysihtml5
 //= require_tree .

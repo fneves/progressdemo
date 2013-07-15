@@ -18,6 +18,7 @@
     </content>
     <orderEntry type="jdk" jdkName="RVM: ruby-2.0.0-p0 [progressdemo]" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="sass-stdlib" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v4.0.0, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v4.0.0, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.0.0, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
@@ -26,23 +27,27 @@
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.0.0, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v4.0.0, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="atomic (v1.1.10, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bootstrap-wysihtml5-rails (v0.3.1.20@75d8c0, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.1.4, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.3.4, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="chunky_png (v1.2.8, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.0.0, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.6.2, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.6.3, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="commonjs (v0.2.6@dd1a72, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="compass (v0.12.2, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="compass-rails (v1.0.3@1749c0, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fssm (v0.2.10, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="haml (v4.0.3, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="haml-rails (v0.4, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.4, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v1.4.2, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v3.0.1, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v3.0.2, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jquery-ui-rails (v4.0.3, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.0, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="less (v2.3.2, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="less-rails (v2.3.3, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="libv8 (v3.11.8.17, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.5.4, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.23, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
@@ -56,6 +61,8 @@
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.1.0, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.12.2, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ref (v1.0.5, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.9, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sass-rails (v4.0.0, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.3.20, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.10.0, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v2.0.0, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
@@ -69,7 +76,6 @@
     <orderEntry type="library" scope="PROVIDED" name="twitter-bootstrap-rails (v2.2.7@9a0a31, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.37, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.1.1, RVM: ruby-2.0.0-p0 [progressdemo]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sass-stdlib" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />

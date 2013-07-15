@@ -1,3 +1,400 @@
 // Place all the styles related to the ProgressBars controller here.
 // They will automatically be included in application.css.scss.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+//------------------
+// Notifications
+//------------------
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff;
+  }
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
+
+//------------------
+// Fonts
+//------------------
+
+@font-face {
+  font-family: 'capture_itregular';
+  src: url('/fonts/capture/capture_it.eot');
+  src: url('/fonts/capture/capture_it.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/capture/capture_it.woff') format('woff'),
+  url('/fonts/capture/capture_it.ttf') format('truetype'),
+  url('/fonts/capture/capture_it.svg#capture_itregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'districtregular';
+  src: url('/fonts/district/district-webfont.eot');
+  src: url('/fonts/district/district-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/district/district-webfont.woff') format('woff'),
+  url('/fonts/district/district-webfont.ttf') format('truetype'),
+  url('/fonts/district/district-webfont.svg#districtregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'UbuntuTitle';
+  src: url('/fonts/ubuntu/Ubuntu-Title-webfont.eot');
+  src: url('/fonts/ubuntu/Ubuntu-Title-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/ubuntu/Ubuntu-Title-webfont.woff') format('woff'),
+  url('/fonts/ubuntu/Ubuntu-Title-webfont.ttf') format('truetype'),
+  url('/fonts/ubuntu/Ubuntu-Title-webfont.svg#UbuntuTitle') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+//------------------
+// Global Structure
+//------------------
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+body{
+  background-image:url("/assets/noisy.png");
+  //background-image:url("/assets/binding_dark.png");
+}
+
+.main-content {
+  margin-top: 50px;
+}
+
+
+footer {
+  margin-top: 100px;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+//------------------
+// Global Color Classes
+//------------------
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: #006b9e;
+}
+
+.orange {
+  color: orange;
+}
+
+.red {
+  color: red;
+}
+
+
+//------------------
+// Progress Bar
+//------------------
+.progress-bar h2 {
+  font-family: capture_itregular;
+  font-size: 70px;
+  /*color: #b5c6d0;*/
+  color: #000003;
+}
+
+
+
+
+//------------------
+// Percentages
+//------------------
+
+.big-percentage {
+  font-size: 50px;
+  font-family: capture_itregular;;
+  color: #585858;
+  font-size: 40px;
+  padding: 30px;
+  margin: 30px;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+
+.stitched {
+  background: #242424;
+  color: #fff;
+  border: 2px dashed #fff;
+  //border-radius: 10px;
+  box-shadow: 0 0 0 4px #242424, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+  text-shadow: -1px -1px #242424;
+  font-weight: normal;
+}
+
+
+.task-list {
+  overflow-x: scroll;
+}
+
+.task {
+  background: #242424;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 0 4px #242424, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+  text-shadow: -1px -1px #242424;
+  font-weight: normal;
+  min-width: 130px;
+  max-width: 130px;
+}
+
+.task:hover {
+  box-shadow: 0 0 0 2px #0088cc, 2px 1px 6px 4px rgba(0, 16, 32, 0.48);
+}
+
+.task-date {
+  color: #0088cc;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.task-description {
+  margin-top: 5px;
+  font-style: bold;
+  font-size: 14px;
+}
+
+.task-status {
+  margin-top: 5px;
+  margin-right: 2px;
+  text-align: right;
+  font-size: 12px;
+}
+
+//------------------
+// Shapes
+//------------------
+
+.bubble {
+  margin: 50px;
+  padding: 5px;
+  position: relative;
+  text-align: left;
+}
+
+.bubble:after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 20%;
+  border-bottom: 25px solid #242424;
+  border-top-color: inherit;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+
+//------------------
+// Tables
+//------------------
+
+td.show, td.edit, td.delete {
+  padding: 5px 15px;
+}
+
+//------------------
+//Tasks Bar Display
+//------------------
+
+.events {
+  display: table;
+  height: 87px;
+  width: 100%;
+}
+
+div.equidistant{
+  width:100%;
+  display: table;
+}
+
+div.equidistant ul{
+  display: table-row;
+}
+
+div.equidistant ul li {
+  display: table-cell;
+  text-align: center;
+}
+
+//------------------
+// WYSIWYG Editor
+//------------------
+
+
+.editor {
+  height: 200px;
+}
+
+//------------------
+// Navigation
+//------------------
+
+#logo {
+  text-align: center;
+  margin: 12px 0 12px 18px;
+}
+
+#logo img {
+  margin-bottom:-45px;
+}
+
+#logo a {
+  display: block;
+}
+
+#sidebar {
+  background-color: #151515;
+  height: 120%;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 50px;
+  z-index: 2;
+}
+
+
+#nav {
+  margin-top: 80px;
+}
+
+#nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#nav ul li {
+  color: #F1F1F1;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 22px;
+  filter: alpha(opacity=40);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+  opacity: .4;
+  padding: 8px 0 8px 15px;
+  text-transform: uppercase;
+  width: 70%;
+}
+
+#nav ul li.active {
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+
+#nav ul li.last {
+  padding-right: 0px;
+}
+
+#nav li span {
+  display: inline-block;
+  font-size: 14px;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding-left: 10px;
+  width: 0;
+}
+
+.btn-navbar {
+  cursor: pointer;
+  filter: alpha(opacity=40);
+  float: left;
+  margin: 20px 5px 10px;
+  opacity: .4;
+  padding: 7px 10px;
+}
+
+.btn-navbar .icon-bar {
+  background-color: #F5F5F5;
+  border-radius: 1px 1px 1px 1px;
+  box-shadow: none;
+  display: block;
+  height: 2px;
+  width: 18px;
+}
+
+/* Expanded Nav Styling */
+
+.expanded #container {
+  left: 100px;
+  transform: translate3d(50px, 0px, 0px) scale3d(1, 1, 1);
+}
+
+.expanded #sidebar {
+  width: 150px;
+}
+
+.expanded #nav li {
+  width: 90%;
+}
+.expanded #nav li span {
+  display: inline-block;
+  height: auto;
+  opacity: 1;
+  overflow: visible;
+  width: auto;
+}
+
+/*
+.expanded #nav ul li.active:after {
+    content: ">";
+    display: block;
+    margin-top: -21px;
+    position: absolute;
+    right: -3px;
+    z-index: 2;
+}
+*/

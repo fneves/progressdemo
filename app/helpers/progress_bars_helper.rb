@@ -20,12 +20,14 @@ module ProgressBarsHelper
     totals.each { |k,v|
       result[k]= (v/tasks.size.round(2) * 100.0).round(2)
     }
-    return result
+    result
   end
 
 
   def marker_icon(task)
     return @@icon_mapper[task.current_status]
   end
+
+
 
 end
