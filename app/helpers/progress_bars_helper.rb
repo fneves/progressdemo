@@ -18,7 +18,11 @@ module ProgressBarsHelper
 
     result ={}
     totals.each { |k,v|
-      result[k]= (v/tasks.size.round(2) * 100.0).round(2)
+      if v > 0 then
+        result[k]= (v/tasks.size.round(2) * 100.0).round(2)
+      else
+        result[k] = 0
+      end
     }
     result
   end

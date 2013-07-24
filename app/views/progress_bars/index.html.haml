@@ -12,14 +12,17 @@
       %td.progress-bar= progress_bar.name
       %td.show
         = link_to progress_bar do
-          %i.icon-eye-open Show
+          .btn
+            %i.icon-eye-open &nbsp;&nbsp;Show
       %td.edit
         =link_to edit_progress_bar_path(progress_bar) do
-          %i.icon-edit Edit
+          .btn
+            %i.icon-edit &nbsp;&nbsp;Edit
 
       %td.delete
         = link_to progress_bar, :method => :delete, :data => { :confirm => 'Are you sure?' } do
-          %i.icon-remove Destroy
+          .btn.btn-danger
+            %i.icon-remove &nbsp;&nbsp;Destroy
 
 %br
 

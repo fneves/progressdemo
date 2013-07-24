@@ -78,17 +78,72 @@
 
 }
 
+@font-face {
+  font-family: 'telegramarender';
+  src: url('/fonts/telegrama/telegrama_render-webfont.eot');
+  src: url('/fonts/telegrama/telegrama_render-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/telegrama/telegrama_render-webfont.woff') format('woff'),
+  url('/fonts/telegrama/telegrama_render-webfont.ttf') format('truetype'),
+  url('/fonts/telegrama/telegrama_render-webfont.svg#telegramarender') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'ditedregular';
+  src: url('/fonts/ditted/Dited-webfont.eot');
+  src: url('/fonts/ditted/Dited-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/ditted/Dited-webfont.woff') format('woff'),
+  url('/fonts/ditted/Dited-webfont.ttf') format('truetype'),
+  url('/fonts/ditted/Dited-webfont.svg#ditedregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'chunkfiveroman';
+  src: url('/fonts/chunkfive/chunkfive-webfont.eot');
+  src: url('/fonts/chunkfive/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/chunkfive/chunkfive-webfont.woff') format('woff'),
+  url('/fonts/chunkfive/chunkfive-webfont.ttf') format('truetype'),
+  url('/fonts/chunkfive/chunkfive-webfont.svg#chunkfiveroman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'ultraregular';
+  src: url('/fonts/ultra/Ultra-webfont.eot');
+  src: url('/fonts/ultra/Ultra-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/ultra/Ultra-webfont.woff') format('woff'),
+  url('/fonts/ultra/Ultra-webfont.ttf') format('truetype'),
+  url('/fonts/ultra/Ultra-webfont.svg#ultraregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 //------------------
 // Global Structure
 //------------------
 
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: telegramarender, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.ditted{
+  font-family: ditedregular;
+}
+
+.impact {
+  font-size: 20px;
 }
 
 body{
-  background-image:url("/assets/noisy.png");
+  //background-image:url("/assets/noisy.png");
   //background-image:url("/assets/binding_dark.png");
 }
 
@@ -112,24 +167,32 @@ footer {
   -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
+h1, h2, h3 {
+  line-height: 80px;
+}
+
 //------------------
 // Global Color Classes
 //------------------
 
 .green {
-  color: green;
+  //color: green;
+  color: #2B8E00;
 }
 
 .blue {
-  color: #006b9e;
+  //color: #006b9e;
+  color: #1533AD;
 }
 
 .orange {
-  color: orange;
+  //color: orange;
+  color: #BF9430;
 }
 
 .red {
-  color: red;
+  //color: red;
+  color: #EF002A;
 }
 
 
@@ -137,8 +200,9 @@ footer {
 // Progress Bar
 //------------------
 .progress-bar h2 {
-  font-family: capture_itregular;
+  font-family: telegramarender;
   font-size: 70px;
+  margin-left: 30px;
   /*color: #b5c6d0;*/
   color: #000003;
 }
@@ -152,9 +216,9 @@ footer {
 
 .big-percentage {
   font-size: 50px;
-  font-family: capture_itregular;;
-  color: #585858;
-  font-size: 40px;
+  font-family: telegramarender;
+  color: #4a4a4a;
+  font-size: 18px;
   padding: 30px;
   margin: 30px;
   font-weight: bold;
@@ -184,8 +248,10 @@ footer {
   box-shadow: 0 0 0 4px #242424, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
   text-shadow: -1px -1px #242424;
   font-weight: normal;
-  min-width: 130px;
-  max-width: 130px;
+  min-width: 175px;
+  max-width: 175px;
+  min-height: 100px;
+  max-height: 100px;
 }
 
 .task:hover {

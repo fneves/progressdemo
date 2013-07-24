@@ -1,6 +1,7 @@
-.progress-bar
-  %h2
-    = @progress_bar.name
+.row-fluid
+  .progress-bar
+    %h2
+      = @progress_bar.name
 
 .row-fluid
   .span12
@@ -8,23 +9,24 @@
       %a{:href => new_progress_bar_task_path(@progress_bar), :class=>'btn'}
         %i.icon-plus-sign-alt &nbsp;Add Task
 
-
-%br
-%br
-
 .row-fluid
   .big-percentage
-    .well.span6.stitched
+    -#.well.span6.stitched
+    .span6
       .pull-left
-        .green
-          %span
-            #{percentage(@tasks)[:completed]}% completed
-        .orange
-          %span
-            #{percentage(@tasks)[:delayed]}% delayed
-        .red
-          %span
-            #{percentage(@tasks)[:canceled]}% canceled
+        %span.clearfix
+          %i.green.impact.icon-ok
+          #{percentage(@tasks)[:completed]}% completed
+
+        %span.clearfix
+          %i.orange.impact.icon-time
+          #{percentage(@tasks)[:delayed]}% delayed
+        %span.clearfix
+          %i.red.impact.icon-ban-circle
+          #{percentage(@tasks)[:canceled]}% canceled
+        %span.clearfix
+          %i.blue.impact.icon-calendar
+          #{percentage(@tasks)[:planned]}% planned
 
 %br
 %br
@@ -36,22 +38,24 @@
       .bar.bar-success{:style=>"width:#{percentage(@tasks)[:completed]}%"}
       .bar.bar-warning{:style=>"width:#{percentage(@tasks)[:delayed]}%"}
       .bar.bar-danger{:style=>"width:#{percentage(@tasks)[:canceled]}%"}
+      .bar.bar-info{:style=>"width:#{percentage(@tasks)[:planned]}%"}
 
-.equidistant
-  %ul.span11.task-list{:id => 'task-list'}
-    - @tasks.each do |task|
-      %li
-        = link_to progress_bar_task_path(@progress_bar, task) do
-          .bubble.task
-            .task-date
-              %span{ :class => 'hint--bottom' , :data => {'hint' => task.duedate.to_s} }
-                = task.duedate.strftime("Due on %d/%m/%Y")
-            .task-description
-              %span.title
-                =task.title
-            .task-status
-              %i{ :class => "#{marker_icon(task)}" }
-                &nbsp;#{task.status_descr()}
+.row
+  .equidistant
+    %ul.span12.task-list{:id => 'task-list'}
+      - @tasks.each do |task|
+        %li
+          = link_to progress_bar_task_path(@progress_bar, task) do
+            .bubble.task
+              .task-date
+                %span{ :class => 'hint--bottom' , :data => {'hint' => task.duedate.to_s} }
+                  = task.duedate.strftime('Due on %d/%m/%Y')
+              .task-description
+                %span.title
+                  =task.title
+              .task-status
+                %i{ :class => "#{marker_icon(task)}" }
+                  &nbsp;#{task.status_descr()}
 
 
 
@@ -66,8 +70,7 @@
 
   }
 
+= link_to edit_progress_bar_path(@progress_bar) do
+  %i.icon-edit &nbsp;Edit
 
-
-= link_to 'Edit', edit_progress_bar_path(@progress_bar)
-\|
 = link_to 'Back', progress_bars_path

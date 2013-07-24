@@ -59,5 +59,5 @@ Progressdemo::Application.routes.draw do
   #     resources :products
   #   end
 
-  root :to => 'progress_bars#index'
+  root :to => 'home#index'
 end

@@ -45,14 +45,16 @@
       %nav{:id=>'nav', :class=>'navigation', :role => 'navigation'}
         %ul.unstyled
           %li.active{:data=>{:section =>'1'}}
-            %i.icon-home
-            %span Home
-          %li{:data=>{:section =>'2'}}
-            %i.icon-user
-              %span Profile
+            =link_to root_path do
+              %i.icon-home
+                %span Home
+          -#%li{:data=>{:section =>'2'}}
+          -#  %i.icon-user
+          -#    %span Profile
           %li.last{:data=>{:section =>'3'}}
-            %i.icon-th-list
-              %span Bars
+            = link_to progress_bars_path do
+              %i.icon-th-list
+                %span Bars
 
 
 
