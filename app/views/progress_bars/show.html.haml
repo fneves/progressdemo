@@ -3,28 +3,28 @@
     %h2
       = @progress_bar.name
 
-.row-fluid
-  .span12
-    .pull-right
-      %a{:href => new_progress_bar_task_path(@progress_bar), :class=>'btn'}
-        %i.icon-plus-sign-alt &nbsp;Add Task
+- if logged_in? then
+  .row-fluid
+    .span12
+      .pull-right
+        %a{:href => new_progress_bar_task_path(@progress_bar), :class=>'btn'}
+          %i.icon-plus-sign-alt &nbsp;Add Task
 
 .row-fluid
   .big-percentage
     -#.well.span6.stitched
     .span6
       .pull-left
-        %span.clearfix
+        %p
           %i.green.impact.icon-ok
           #{percentage(@tasks)[:completed]}% completed
-
-        %span.clearfix
+        %p
           %i.orange.impact.icon-time
           #{percentage(@tasks)[:delayed]}% delayed
-        %span.clearfix
+        %p
           %i.red.impact.icon-ban-circle
           #{percentage(@tasks)[:canceled]}% canceled
-        %span.clearfix
+        %p
           %i.blue.impact.icon-calendar
           #{percentage(@tasks)[:planned]}% planned
 
@@ -60,17 +60,6 @@
 
 
 %br
-
-:javascript
-  function isOverflowed(element){
-      return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
-  }
-
-  if( isOverflowed($('#task-list'))){
-
-  }
-
-= link_to edit_progress_bar_path(@progress_bar) do
-  %i.icon-edit &nbsp;Edit
-
-= link_to 'Back', progress_bars_path
+- if logged_in? then
+  = link_to edit_progress_bar_path(@progress_bar) do
+    %i.icon-edit &nbsp;Edit

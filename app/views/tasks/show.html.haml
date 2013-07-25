@@ -1,17 +1,19 @@
 
-%p
-  %b Title:
+%h1
   = @task.title
-%p
-  %b Duedate:
-  = @task.duedate
-%p
-  %b Body:
-  = raw @task.body
-%p
-  %b Status:
-  = @task.status
+%hr
 
-= link_to 'Edit', edit_progress_bar_task_path(@progress_bar, @task)
-\|
-= link_to 'Back', progress_bar_tasks_path
+%p.pull-right
+
+  = @task.duedate
+  %br
+    %i{ :class => "#{marker_icon(@task)}" }
+      &nbsp;#{@task.status_descr()}
+%br
+%br
+%p
+  = raw @task.body
+
+
+- if logged_in? then
+  = link_to 'Edit', edit_progress_bar_task_path(@progress_bar, @task)

@@ -2,69 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2685f138-f4cd-416f-8879-e6af06c14118" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ditted/Dited-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ditted/Dited-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ditted/Dited-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ultra/Ultra-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ultra/Ultra-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ultra/Ultra-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/chunkfive/chunkfive-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/chunkfive/chunkfive-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/chunkfive/chunkfive-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/telegrama/telegrama_render-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/telegrama/telegrama_render-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/telegrama/telegrama_render-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ditted/Dited-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ultra/Ultra-demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ultra/Ultra-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/chunkfive/chunkfive-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/home/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/chunkfive/stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ditted/stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/telegrama/stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ultra/stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/telegrama/telegrama_render-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/progress_bars/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/progress_bars/_form.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/basic_auth.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tasks/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/tasks/_form.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/progress_bars/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/progress_bars/edit.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tasks/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/tasks/edit.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/progress_bars/index.html.haml" afterPath="$PROJECT_DIR$/app/views/progress_bars/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tasks/index.html.haml" afterPath="$PROJECT_DIR$/app/views/tasks/index.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/progress_bars/new.html.haml" afterPath="$PROJECT_DIR$/app/views/progress_bars/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/progress_bars.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/progress_bars.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/progress_bars_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/progress_bars_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tasks/new.html.haml" afterPath="$PROJECT_DIR$/app/views/tasks/new.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/progress_bars_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/progress_bars_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/progress_bars/show.html.haml" afterPath="$PROJECT_DIR$/app/views/progress_bars/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tasks/show.html.haml" afterPath="$PROJECT_DIR$/app/views/tasks/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="progressdemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/.ruby-gemset" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1372598426001" ignored="false" />
     <file path="/Gemfile" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373278753539" ignored="false" />
-    <file path="/application.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373986871654" ignored="false" />
+    <file path="/application.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374775117110" ignored="false" />
     <file path="/progress_bar.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1372607521125" ignored="false" />
     <file path="/task.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373637057054" ignored="false" />
     <file path="/20130630134839_create_tasks.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1372967788152" ignored="false" />
-    <file path="/routes.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373986772867" ignored="false" />
-    <file path="/application_controller.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373986599623" ignored="false" />
+    <file path="/routes.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374773422650" ignored="false" />
+    <file path="/application_controller.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374774214289" ignored="false" />
     <file path="/home.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1372601529734" ignored="false" />
     <file path="/application.css" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1372884825594" ignored="false" />
-    <file path="/index.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373987026785" ignored="false" />
+    <file path="/index.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374775175817" ignored="false" />
     <file path="/progress_bars.css.scss" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373987138187" ignored="false" />
-    <file path="/show.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373985702465" ignored="false" />
-    <file path="/progress_bars_controller.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1372967508983" ignored="false" />
+    <file path="/show.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374774857408" ignored="false" />
+    <file path="/progress_bars_controller.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374766820984" ignored="false" />
     <file path="/progress_bars_helper.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373987265116" ignored="false" />
-    <file path="/tasks_controller.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1372615200688" ignored="false" />
-    <file path="/_form.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373987181802" ignored="false" />
-    <file path="/new.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373987105743" ignored="false" />
-    <file path="/edit.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1372610372023" ignored="false" />
+    <file path="/tasks_controller.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374774036674" ignored="false" />
+    <file path="/_form.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374775031212" ignored="false" />
+    <file path="/new.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374774679733" ignored="false" />
+    <file path="/edit.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374775387424" ignored="false" />
     <file path="/fragment.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1372611689036" ignored="false" />
     <file path="/active_admin.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1372616929262" ignored="false" />
-    <file path="/Dummy.txt" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374651315354" ignored="false" />
+    <file path="/Dummy.txt" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374651358963" ignored="false" />
     <file path="/bootstrap_and_overrides.css" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373404092907" ignored="false" />
     <file path="/application.css.scss" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373371715150" ignored="false" />
     <file path="/scaffolds.css.scss" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373375035550" ignored="false" />
     <file path="/application.js" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373370479723" ignored="false" />
     <file path="/editor.css" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373372658183" ignored="false" />
-    <file path="/home_controller.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373986742568" ignored="false" />
+    <file path="/home_controller.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374775133935" ignored="false" />
+    <file path="/basic_auth.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374771882908" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,20 +112,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="progress_bars.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/progress_bars.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="170" column="20" selection-start="4578" selection-end="4578" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="34" selection-start="1912" selection-end="1912" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="47" column="30" selection-start="1900" selection-end="1909" vertical-scroll-proportion="-3.75">
+              <folding>
+                <marker date="1374775139000" expanded="true" signature="1195:2239" placeholder="-#%ul.nav.nav-tabs.nav-stacked.span1" />
+                <marker date="1374775139000" expanded="true" signature="2521:3095" placeholder=".container" />
+                <marker date="1374775139000" expanded="true" signature="2536:2712" placeholder=".span12" />
+                <marker date="1374775139000" expanded="true" signature="2550:2712" placeholder=".pull-right" />
+                <marker date="1374775139000" expanded="true" signature="2718:3095" placeholder=".container.main-content" />
+                <marker date="1374775139000" expanded="true" signature="2748:2811" placeholder=".row" />
+                <marker date="1374775139000" expanded="true" signature="2761:2811" placeholder=".pull-1.span11" />
+                <marker date="1374775139000" expanded="true" signature="2818:2891" placeholder=".row" />
+                <marker date="1374775139000" expanded="true" signature="2831:2891" placeholder=".pull-1.span11" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,7 +134,16 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/progress_bars/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="25" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+            <state line="32" column="72" selection-start="757" selection-end="774" vertical-scroll-proportion="-13.166667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tasks/_form.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="24" selection-start="740" selection-end="740" vertical-scroll-proportion="-17.5">
               <folding />
             </state>
           </provider>
@@ -155,25 +152,16 @@
       <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/progress_bars/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="37" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+            <state line="12" column="37" selection-start="389" selection-end="389" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.haml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/tasks/_form.html.haml">
+      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tasks/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="18" selection-start="664" selection-end="664" vertical-scroll-proportion="0.5144033">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="progress_bars_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/progress_bars_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="21" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
+            <state line="5" column="29" selection-start="75" selection-end="75" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
@@ -182,16 +170,16 @@
       <file leaf-file-name="edit.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/progress_bars/edit.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="7" column="30" selection-start="97" selection-end="97" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/progress_bars/new.html.haml">
+      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tasks/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+            <state line="18" column="2" selection-start="200" selection-end="200" vertical-scroll-proportion="-11.25">
               <folding />
             </state>
           </provider>
@@ -200,16 +188,25 @@
       <file leaf-file-name="home_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+            <state line="6" column="34" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.haml">
+      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/progress_bars/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="2" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+            <state line="3" column="15" selection-start="41" selection-end="41" vertical-scroll-proportion="-1.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/progress_bars/show.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="49" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.697733">
               <folding />
             </state>
           </provider>
@@ -233,22 +230,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/progress_bars.js" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" />
-        <option value="$PROJECT_DIR$/app/models/task.rb" />
-        <option value="$PROJECT_DIR$/app/views/progress_bars/show.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/progress_bars/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/progress_bars_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/tasks_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/progress_bars/new.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/progress_bars.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/progress_bars/_form.html.haml" />
-        <option value="$PROJECT_DIR$/app/helpers/progress_bars_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/tasks/edit.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/tasks/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/tasks/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/tasks/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/tasks/_form.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/progress_bars/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/progress_bars/edit.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/progress_bars/show.html.haml" />
       </list>
     </option>
   </component>
@@ -339,6 +336,70 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progressdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progressdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progressdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progressdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progressdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progressdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progressdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progressdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -893,7 +954,11 @@
       <created>1373878454615</created>
       <updated>1373878454615</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="redesigned.&#10;updated navigation">
+      <created>1374651377578</created>
+      <updated>1374651377578</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -911,19 +976,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24677187" sideWeight="0.58830845" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41169155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24677187" sideWeight="0.5885287" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4114713" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -969,7 +1034,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating the design.&#10;Sorting The tasks by date" />
+    <option name="LAST_COMMIT_MESSAGE" value="redesigned.&#10;updated navigation" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -985,6 +1050,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Added epiceditor" />
     <MESSAGE value="Updating the design.&#10;Sorting The tasks by date" />
+    <MESSAGE value="redesigned.&#10;updated navigation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -996,106 +1062,126 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/fonts/chunkfive/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="83" selection-end="476" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/fonts/ultra/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="369" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/progress_bars/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="55" selection-start="1467" selection-end="1467" vertical-scroll-proportion="-3.72">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="2" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="19" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.0">
+        <state line="14" column="70" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/progress_bars_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+        <state line="2" column="14" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+        <state line="3" column="27" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="34" selection-start="1912" selection-end="1912" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/progress_bars/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/progress_bars/edit.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/progress_bars/index.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/progress_bars.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/tasks/edit.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="20" selection-start="4578" selection-end="4578" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="-3.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/progress_bars/new.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/tasks/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+        <state line="21" column="8" selection-start="417" selection-end="417" vertical-scroll-proportion="-13.125">
+          <folding>
+            <marker date="1374774698000" expanded="true" signature="-1:-1" placeholder="- if logged_in? then" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tasks/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="29" selection-start="75" selection-end="75" vertical-scroll-proportion="-3.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/progress_bars_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/tasks/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="21" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/progress_bars/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="37" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+        <state line="18" column="2" selection-start="200" selection-end="200" vertical-scroll-proportion="-11.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tasks/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="18" selection-start="664" selection-end="664" vertical-scroll-proportion="0.5144033">
+        <state line="28" column="24" selection-start="740" selection-end="740" vertical-scroll-proportion="-17.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="30" selection-start="1900" selection-end="1909" vertical-scroll-proportion="-3.75">
+          <folding>
+            <marker date="1374775139000" expanded="true" signature="1195:2239" placeholder="-#%ul.nav.nav-tabs.nav-stacked.span1" />
+            <marker date="1374775139000" expanded="true" signature="2521:3095" placeholder=".container" />
+            <marker date="1374775139000" expanded="true" signature="2536:2712" placeholder=".span12" />
+            <marker date="1374775139000" expanded="true" signature="2550:2712" placeholder=".pull-right" />
+            <marker date="1374775139000" expanded="true" signature="2718:3095" placeholder=".container.main-content" />
+            <marker date="1374775139000" expanded="true" signature="2748:2811" placeholder=".row" />
+            <marker date="1374775139000" expanded="true" signature="2761:2811" placeholder=".pull-1.span11" />
+            <marker date="1374775139000" expanded="true" signature="2818:2891" placeholder=".row" />
+            <marker date="1374775139000" expanded="true" signature="2831:2891" placeholder=".pull-1.span11" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/progress_bars/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="37" selection-start="389" selection-end="389" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/progress_bars/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="30" selection-start="97" selection-end="97" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/progress_bars/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="72" selection-start="757" selection-end="774" vertical-scroll-proportion="-13.166667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/progress_bars/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="15" selection-start="41" selection-end="41" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/progress_bars/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="49" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.697733">
           <folding />
         </state>
       </provider>

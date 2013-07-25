@@ -1,20 +1,25 @@
 class ProgressBarsController < ApplicationController
   before_action :set_progress_bar, only: [:show, :edit, :update, :destroy]
 
+  add_breadcrumb 'Progress Bars', :progress_bars_path
+
   # GET /progress_bars
   # GET /progress_bars.json
   def index
+
     @progress_bars = ProgressBar.all
   end
 
   # GET /progress_bars/1
   # GET /progress_bars/1.json
   def show
+    add_breadcrumb @progress_bar.name, progress_bar_path(@progress_bar)
     @tasks = @progress_bar.tasks.order('duedate ASC')
   end
 
   # GET /progress_bars/new
   def new
+    add_breadcrumb 'New Progress Bar', new_progress_bar_path
     @progress_bar = ProgressBar.new
   end
 

@@ -4,8 +4,9 @@
   %tr
     %th Name
     %th
-    %th
-    %th
+    -if logged_in? then
+      %th
+      %th
 
   - @progress_bars.each do |progress_bar|
     %tr
@@ -14,16 +15,19 @@
         = link_to progress_bar do
           .btn
             %i.icon-eye-open &nbsp;&nbsp;Show
-      %td.edit
-        =link_to edit_progress_bar_path(progress_bar) do
-          .btn
-            %i.icon-edit &nbsp;&nbsp;Edit
 
-      %td.delete
-        = link_to progress_bar, :method => :delete, :data => { :confirm => 'Are you sure?' } do
-          .btn.btn-danger
-            %i.icon-remove &nbsp;&nbsp;Destroy
+      -if logged_in? then
+        %td.edit
+          =link_to edit_progress_bar_path(progress_bar) do
+            .btn
+              %i.icon-edit &nbsp;&nbsp;Edit
+
+        %td.delete
+          = link_to progress_bar, :method => :delete, :data => { :confirm => 'Are you sure?' } do
+            .btn.btn-danger
+              %i.icon-remove &nbsp;&nbsp;Destroy
 
 %br
 
-= link_to 'New Progress bar', new_progress_bar_path
+- if logged_in? then
+  = link_to 'New Progress bar', new_progress_bar_path , :class => 'btn'

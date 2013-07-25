@@ -51,10 +51,10 @@
           -#%li{:data=>{:section =>'2'}}
           -#  %i.icon-user
           -#    %span Profile
-          %li.last{:data=>{:section =>'3'}}
-            = link_to progress_bars_path do
-              %i.icon-th-list
-                %span Bars
+          -#%li.active.last{:data=>{:section =>'3'}}
+          -#  = link_to progress_bars_path do
+          -#    %i.icon-th-list
+          -#      %span Projects
 
 
 
@@ -70,16 +70,28 @@
           -#  %span.icon-bar
           -#%a.brand(href="#") Progress Demo
 
+  .container
+    .span12
+      .pull-right
+        - if logged_in? then
+          %small
+            Admin Mode
+        - else
+          %a{:href=> login_path}
+            %small Login as admin
 
     .container.main-content
       .row
-        .span12
+        .pull-1.span11
+          = render_breadcrumbs('>')
+      .row
+        .pull-1.span11
           = bootstrap_flash
           = yield
 
     
-      %footer
-        %p &copy; Company 2013
+      -#%footer
+      -#  %p &copy; Company 2013
     /
       Javascripts
       \==================================================

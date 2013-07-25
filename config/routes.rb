@@ -59,5 +59,7 @@ Progressdemo::Application.routes.draw do
   #     resources :products
   #   end
 
+  get '/login' => 'application#login', as: 'login'
   root :to => 'home#index'
+
 end

@@ -2,24 +2,35 @@ class TasksController < ApplicationController
   before_action :set_task, only: [:show, :edit, :update, :destroy]
   before_filter :load_parent
 
+  add_breadcrumb 'Progress Bars', :progress_bars_path
+
+
   # GET /progress_bars/1/tasks
   # GET /progress_bars/1/tasks.json
   def index
+    add_breadcrumb @progress_bar.name, progress_bar_path(@progress_bar)
+    add_breadcrumb "#{@progress_bar.name} Tasks", progress_bar_tasks_path(@progress_bar)
     @tasks = @progress_bar.tasks.all
   end
 
   # GET /progress_bars/1/tasks/1
   # GET /progress_bars/1/tasks/1.json
   def show
+    add_breadcrumb @progress_bar.name, progress_bar_path(@progress_bar)
+    add_breadcrumb "#{@task.title}", progress_bar_task_path(@progress_bar, @task)
   end
 
   # GET /tasks/new
   def new
+    add_breadcrumb @progress_bar.name, progress_bar_path(@progress_bar)
+    add_breadcrumb 'new task', new_progress_bar_task_path
     @task = @progress_bar.tasks.build
   end
 
   # GET /progress_bars/1/tasks/1/edit
   def edit
+    add_breadcrumb @progress_bar.name, progress_bar_path(@progress_bar)
+    add_breadcrumb "edit #{@task.title}", edit_progress_bar_task_path(@progress_bar, @task)
   end
 
   # POST /progress_bars/1/tasks
