@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2685f138-f4cd-416f-8879-e6af06c14118" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/basic_auth.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tasks/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/tasks/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/progress_bars/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/progress_bars/edit.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tasks/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/tasks/edit.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/progress_bars/index.html.haml" afterPath="$PROJECT_DIR$/app/views/progress_bars/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tasks/index.html.haml" afterPath="$PROJECT_DIR$/app/views/tasks/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/progress_bars/new.html.haml" afterPath="$PROJECT_DIR$/app/views/progress_bars/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tasks/new.html.haml" afterPath="$PROJECT_DIR$/app/views/tasks/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/progress_bars_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/progress_bars_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/progress_bars/show.html.haml" afterPath="$PROJECT_DIR$/app/views/progress_bars/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tasks/show.html.haml" afterPath="$PROJECT_DIR$/app/views/tasks/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/progress_bars.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/progress_bars.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="progressdemo.iws" />
@@ -34,7 +18,7 @@
     <file path="/home.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1372601529734" ignored="false" />
     <file path="/application.css" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1372884825594" ignored="false" />
     <file path="/index.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374775175817" ignored="false" />
-    <file path="/progress_bars.css.scss" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373987138187" ignored="false" />
+    <file path="/progress_bars.css.scss" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374776039189" ignored="false" />
     <file path="/show.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374774857408" ignored="false" />
     <file path="/progress_bars_controller.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374766820984" ignored="false" />
     <file path="/progress_bars_helper.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373987265116" ignored="false" />
@@ -44,7 +28,7 @@
     <file path="/edit.html.haml" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374775387424" ignored="false" />
     <file path="/fragment.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1372611689036" ignored="false" />
     <file path="/active_admin.rb" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1372616929262" ignored="false" />
-    <file path="/Dummy.txt" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374651358963" ignored="false" />
+    <file path="/Dummy.txt" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1374775448867" ignored="false" />
     <file path="/bootstrap_and_overrides.css" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373404092907" ignored="false" />
     <file path="/application.css.scss" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373371715150" ignored="false" />
     <file path="/scaffolds.css.scss" changelist="2685f138-f4cd-416f-8879-e6af06c14118" time="1373375035550" ignored="false" />
@@ -112,6 +96,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="progress_bars.css.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/progress_bars.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="161" column="13" selection-start="4414" selection-end="4414" vertical-scroll-proportion="0.44908616">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
@@ -158,15 +151,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tasks/new.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="29" selection-start="75" selection-end="75" vertical-scroll-proportion="-3.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="edit.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/progress_bars/edit.html.haml">
           <provider selected="true" editor-type-id="text-editor">
@@ -203,10 +187,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/progress_bars/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="49" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.697733">
+            <state line="63" column="49" selection-start="1751" selection-end="1751" vertical-scroll-proportion="-39.375">
               <folding />
             </state>
           </provider>
@@ -230,7 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/progress_bars_controller.rb" />
@@ -246,6 +229,7 @@
         <option value="$PROJECT_DIR$/app/views/progress_bars/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/progress_bars/edit.html.haml" />
         <option value="$PROJECT_DIR$/app/views/progress_bars/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/progress_bars.css.scss" />
       </list>
     </option>
   </component>
@@ -538,6 +522,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progressdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progressdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progressdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progressdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -958,7 +982,11 @@
       <created>1374651377578</created>
       <updated>1374651377578</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="redesigned.&#10;updated navigation">
+      <created>1374775458452</created>
+      <updated>1374775458452</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1062,13 +1090,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="70" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/progress_bars_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="14" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
@@ -1181,7 +1202,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/progress_bars/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="49" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.697733">
+        <state line="63" column="49" selection-start="1751" selection-end="1751" vertical-scroll-proportion="-39.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/progress_bars.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="13" selection-start="4414" selection-end="4414" vertical-scroll-proportion="0.44908616">
           <folding />
         </state>
       </provider>

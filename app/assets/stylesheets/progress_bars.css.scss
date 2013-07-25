@@ -159,6 +159,7 @@ footer {
 ::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 7px;
+  height: 7px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -271,10 +272,11 @@ h1, h2, h3 {
 }
 
 .task-status {
-  margin-top: 5px;
-  margin-right: 2px;
   text-align: right;
   font-size: 12px;
+  position: absolute;
+  bottom: 5px;
+  right: 8px;
 }
 
 //------------------
