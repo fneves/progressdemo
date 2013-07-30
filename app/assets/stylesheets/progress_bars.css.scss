@@ -257,6 +257,36 @@ h1, h2, h3 {
 
 .task:hover {
   box-shadow: 0 0 0 2px #0088cc, 2px 1px 6px 4px rgba(0, 16, 32, 0.48);
+  cursor: pointer;
+}
+
+.task-edit {
+  position: absolute;
+  top: 5px;
+  right: 22px;
+}
+
+.task-edit a {
+  color: white;
+}
+
+.task-edit a:hover {
+  color: gray;
+}
+
+
+.task-delete {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+}
+
+.task-delete a {
+  color: white;
+}
+
+.task-delete a:hover {
+  color: gray;
 }
 
 .task-date {

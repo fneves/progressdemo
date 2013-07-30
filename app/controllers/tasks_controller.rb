@@ -68,7 +68,7 @@ class TasksController < ApplicationController
   def destroy
     @task.destroy
     respond_to do |format|
-      format.html { redirect_to progress_bar_tasks_url }
+      format.html { redirect_to progress_bar_path(@progress_bar) }
       format.json { head :no_content }
     end
   end
