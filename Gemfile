@@ -54,6 +54,10 @@ gem 'unicorn'
 gem 'capistrano', group: :development
 gem 'rvm-capistrano', group: :production
 
+group :development do
+  gem 'capistrano-unicorn', :require => false
+end
+
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 

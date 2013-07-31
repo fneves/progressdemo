@@ -1,5 +1,6 @@
 require 'bundler/capistrano'
 require 'rvm/capistrano'
+require 'capistrano-unicorn'
 load "deploy/assets"
 
 default_run_options[:pty] = true
@@ -38,6 +39,9 @@ server domain, :app, :web
 role :web, domain                          # Your HTTP server, Apache/etc
 role :app, domain                         # This may be the same as your `Web` server
 role :db,  domain, :primary => true # This is where Rails migrations will run
+
+after 'deploy:restart', 'unicorn:reload'
+after 'deploy:restart', 'unicorn:restart'
 
 # if you want to clean up old releases on each deploy uncomment this:
 # after "deploy:restart", "deploy:cleanup"
