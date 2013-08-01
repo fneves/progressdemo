@@ -21,14 +21,20 @@ set :scm_verbose, true
 set :deploy_via, :export
 set :deploy_to, "/home/remotedeploy/apps/progress"
 
+#---------------------
+#- RVM
+#---------------------
+
 # Target ruby version
 set :rvm_ruby_string, '2.0.0'
- 
-# System-wide RVM installation
-set :rvm_type, :user
- 
-# We use sudo (root) for system-wide RVM installation
+# System-wide RVM installation or user
+set :rvm_type, :user 
+# We use sudo (root) for system-wide RVM installation or not
 set :rvm_install_with_sudo, false
+#before deploying we want to guarantee that ruby is installed
+before 'deploy', 'rvm:install_rvm'
+before 'deploy:setup', 'rvm:install_ruby'
+
 
 
 server domain, :app, :web
