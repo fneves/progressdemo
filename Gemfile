@@ -53,11 +53,7 @@ gem 'puma'
 # Use Capistrano for deployment
 gem 'capistrano', group: :development
 gem 'rvm-capistrano', group: :production
-
-group :development do
-  gem 'capistrano-unicorn', :require => false
-end
-
+gem 'capistrano-puma', require: false
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
