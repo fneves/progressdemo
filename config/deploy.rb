@@ -1,16 +1,13 @@
 require 'bundler/capistrano'
 require 'rvm/capistrano'
-#require 'capistrano-puma'
+require 'puma/capistrano'
 load "deploy/assets"
 
 
 set :application, 'progress'
-
-
 default_run_options[:pty] = true
 set :user, 'remotedeploy'
 set :repository, "git@github.com:fneves/progressdemo.git"
-
 set :domain, '10.160.7.86'
 set :use_sudo, false
 
@@ -31,7 +28,7 @@ set :rvm_ruby_string, '2.0.0'
 set :rvm_type, :user
  
 # We use sudo (root) for system-wide RVM installation
-#set :rvm_install_with_sudo, false
+set :rvm_install_with_sudo, false
 
 
 server domain, :app, :web
@@ -46,10 +43,6 @@ role :db,  domain, :primary => true # This is where Rails migrations will run
 
 set :app_server, :puma
 set :stage, :production
-set :runner, "remotedeploy"
-
-
-
 
 #after 'deploy:restart', 'unicorn:reload'
 #after 'deploy:restart', 'unicorn:restart'
