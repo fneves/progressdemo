@@ -1,11 +1,12 @@
 require 'bundler/capistrano'
 require 'rvm/capistrano'
 require 'capistrano-unicorn'
+set :application, 'progress'
+
 load "deploy/assets"
 
 default_run_options[:pty] = true
 set :user, 'remotedeploy'
-set :application, "progress"
 set :repository, "git@github.com:fneves/progressdemo.git"
 
 set :domain, '10.160.7.86'
@@ -40,8 +41,10 @@ role :web, domain                          # Your HTTP server, Apache/etc
 role :app, domain                         # This may be the same as your `Web` server
 role :db,  domain, :primary => true # This is where Rails migrations will run
 
-after 'deploy:restart', 'unicorn:reload'
-after 'deploy:restart', 'unicorn:restart'
+
+
+#after 'deploy:restart', 'unicorn:reload'
+#after 'deploy:restart', 'unicorn:restart'
 
 # if you want to clean up old releases on each deploy uncomment this:
 # after "deploy:restart", "deploy:cleanup"
