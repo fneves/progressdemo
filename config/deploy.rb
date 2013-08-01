@@ -1,6 +1,6 @@
 require 'bundler/capistrano'
 require 'rvm/capistrano'
-require 'capistrano-puma'
+#require 'capistrano-puma'
 load "deploy/assets"
 
 
