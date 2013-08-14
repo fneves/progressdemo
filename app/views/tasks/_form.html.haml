@@ -20,7 +20,7 @@
     = f.select :status, %w(Planned Completed Canceled)
 
   .actions
-    = f.submit 'Save'
+    = f.submit 'Save' , { :class=> 'btn btn-primary' }
 
 :javascript
   $(document).ready(function(){
